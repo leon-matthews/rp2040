@@ -1,3 +1,3 @@
 # rp2040
 
-Playground for experimenting with the RP2040 microcontroller
+Playground for experimenting with the RP2040 microcontroller and Pico board.
