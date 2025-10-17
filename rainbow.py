@@ -4,13 +4,12 @@ Fully Saturated Rainbow
 
         Red     Green   Blue
 
-1       255     0       0
-2       255     255     0
-3       0       255     0
-4       0       255     255
-5       0       0       255
-6       255     0       255
-7       255     0       0      # Repeat of step 1
+1       255     +       0       # Red -> orange -> yellow
+2       -       255     0       # Yellow -> chartreuse -> green
+3       0       255     +       # Green -> cyan
+4       0       -       255     # Cyan -> blue
+5       +       0       255     # Blue -> Purple
+6       255     0       -       # Purple -> red
 
 
 6 * 255 = 1,536 steps total
